@@ -1,0 +1,169 @@
+.navbar{
+  background-color: grey;
+  display:flex;
+  flex-direction:row;
+  justify-content:center;
+}
+
+body{
+  background: linear-gradient(300deg, black 22%, purple 100%);
+  font-family:Arial, serif,Impact,'Arial Narrow Bold', sans-serif;
+}
+
+.icones{
+  align-items: center;
+  background: #2f2f2f;
+  color: #1c1c1c;
+  margin-top: 50px;
+  margin-left: 100px;
+  margin-right: 100px;
+  height: 100px;
+  border-radius: 20px;
+  box-shadow: 6px 6px 6px #0e1d2f;
+  padding: 20px; 
+  display: flex;
+}
+
+.container {
+  background: #4a4848;
+  color: #1c1c1c;
+  margin: 30px;
+  border-radius: 20px;
+  box-shadow: 6px 6px 6px #0e1d2f;
+  padding: 0; 
+  display: flex;
+}
+
+ul{
+  position: relative;
+  margin: 0;
+  padding-left: -30px;
+  padding-bottom: 10px;
+  display: flex;
+}
+
+.padraoicone{
+  position: relative;
+  width: 60px;
+  height: 60px;
+  margin: 0 40px;
+  transform: rotate(0deg) skew(5deg);
+  color: white;
+  top: 60px;
+  right: 40px;
+  left: -60px;
+  bottom: 30px;
+}
+
+ul li {
+  position: relative;
+  list-style: none;
+  width: 60px;
+  height: 60px;
+  margin: 0 40px;
+  transform: rotate(-30deg) skew(25deg);
+}
+
+ul li span{
+  position: absolute;
+  top: -90%;
+  bottom: 50%;
+  right: 50%;
+  left: -50%;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  transition: 0.5s;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 30px !important;
+  margin-top: 50px;
+  margin-bottom: 70px;
+}
+
+ul li:hover span{
+  box-shadow: -1px 1px 1px rgba(0, 0, 0, .1);
+}
+
+ul li:hover span:nth-child(5){
+  transform: translate(40px,-40px);
+  opacity: 1;
+}
+
+ul li:hover span:nth-child(4){
+  transform: translate(30px,-30px);
+  opacity: .8;
+}
+
+ul li:hover span:nth-child(3){
+  transform: translate(20px,-20px);
+  opacity: .6;
+}
+
+ul li:hover span:nth-child(2){
+  transform: translate(10px,-10px);
+  opacity: .4;
+}
+
+ul li:hover span:nth-child(1){
+  transform: translate(0,0);
+  opacity: .2;
+}
+
+ul li:nth-child(1) span{
+  background: #11c01c;
+}
+
+ul li:nth-child(2) span{
+  background: #12c9d2;
+}
+
+ul li:nth-child(3) span{
+  background: #0e76a8;
+}
+
+ul li:nth-child(4) span{
+  background: #171515;
+}
+
+ul li:nth-child(5) span{
+  background: #6441a5;
+}
+
+ul li:nth-child(6) span{
+  background: #E1306C;
+}
+
+ul li:nth-child(7) span{
+  background: #ca0f38;
+}
+
+.perfil {
+  display: flex;
+}
+
+.foto {
+  margin: 10px ;
+  border-style:solid;
+  border-color: purple;
+  border-width: 5px; 
+  border-radius: 460px;
+  max-height: 150px; 
+}
+
+.titulo{
+  margin-left: 16px;  
+}
+
+.titulo h1 {
+  font-weight: 700;
+  font-size:36px;
+  
+}
+
+.intro{
+  font-size: 20px;
+  color: white;
+}
