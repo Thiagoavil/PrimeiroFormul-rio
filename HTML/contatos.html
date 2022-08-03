@@ -84,5 +84,28 @@
       </li>
     </ul>
   </div>
+  <div class="container ">
+    <form name="meu_form">
+      <h1 class="formulario" style="color: white;">Entre em contato</h1>
+      <h3 class="formulario" style="color: white;">Prenca seus dados</h3>
+
+      <div class="formulario">
+        <label for="nome"> Nome :</label>
+        <input type="text"  placeholder="Insira seu nome" required="required" name="nome" />
+        
+        <label for="fone">Fone:</label>
+        <input type="tel" id="foneid" placeholder="(__)_____-____" name="fone" />
+        <br>
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" id="emailid" placeholder="exemplo@mail.com" name="email" />
+        <br>
+        <br>
+        <textarea placeholder="Motivo Do contato"></textarea>
+        <br>
+        <input  type="submit" class="enviar" onclick="Enviar();" value="Enviar" />
+      </div>
+    </form>
+  </div>
 </body>
 </html>
